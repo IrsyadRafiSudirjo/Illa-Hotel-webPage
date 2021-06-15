@@ -1,0 +1,113 @@
+h1 {
+  font-size: 32px;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.header nav img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background-color: #f9f4e7;
+}
+
+.header .navbar {
+  height: 46px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.header .col-10 {
+  margin-top: 0.5rem;
+}
+
+.header .navbar-nav {
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+.header .nav-link {
+  padding-right: 3rem;
+}
+
+.header .nav-link {
+  padding-right: 3rem;
+}
+
+.header {
+  position: relative;
+}
+
+.header .navbar {
+  z-index: 1;
+  left: auto;
+  bottom: -1.5rem;
+}
+.header .carousel {
+  bottom: 75px;
+}
+
+.header p:hover {
+  color: #cb9f29;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 23px;
+    font-family: "Libre Baskerville", sans-serif;
+  }
+
+  h2 {
+    font-size: 15px;
+    font-family: "Libre Baskerville", sans-serif;
+  }
+
+  h3 {
+    font-size: 11px;
+    font-family: "Libre Baskerville", sans-serif;
+  }
+
+  p {
+    font-size: 9px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .header .col-10 {
+    margin-bottom: 1rem;
+  }
+
+  .header .navbar {
+    height: 55px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header .navbar-collapse {
+    background-color: #f8f9fa;
+  }
+  .header .navbar-toggler {
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+
+  .header .navbar {
+    z-index: 1;
+    left: auto;
+    bottom: 0;
+  }
+}

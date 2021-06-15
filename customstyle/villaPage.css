@@ -1,0 +1,163 @@
+.title {
+  margin: auto;
+}
+.title h1 {
+  text-align: center;
+}
+.title p {
+  text-align: center;
+}
+
+.bougenville button {
+  width: 290px;
+  height: 61px;
+  border: 2px solid #023047;
+  background: transparent;
+  position: relative;
+  padding: 0;
+  color: #023047;
+}
+
+.bougenville button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(45deg, #cb9f29 50%, transparent 50%);
+  z-index: -1;
+  background-size: 300%;
+  background-position: 100%;
+  transition: 1s, font-size 0.2s;
+  color: #ffffff;
+}
+
+.bougenville button:hover:after {
+  background-position: 0;
+  font-size: 1.1em;
+}
+
+.bougenville .row {
+  margin-left: 0;
+  margin-right: 0;
+  width: inherit;
+}
+
+.bougenville img {
+  width: 700px;
+}
+
+.bougenville .carousel {
+  padding-left: 1.5rem;
+}
+
+.catellya button {
+  width: 290px;
+  height: 61px;
+  border: 2px solid #023047;
+  background: transparent;
+  position: relative;
+  padding: 0;
+  color: #023047;
+}
+
+.catellya button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(45deg, #cb9f29 50%, transparent 50%);
+  z-index: -1;
+  background-size: 300%;
+  background-position: 100%;
+  transition: 1s, font-size 0.2s;
+  color: #ffffff;
+}
+
+.catellya button:hover:after {
+  background-position: 0;
+  font-size: 1.1em;
+}
+
+.catellya .row {
+  margin-left: 0;
+  margin-right: 0;
+  width: inherit;
+}
+
+.catellya img {
+  width: 700px;
+}
+
+.catellya .carousel {
+  padding-left: 1.5rem;
+}
+
+.tulip button {
+  width: 290px;
+  height: 61px;
+  border: 2px solid #023047;
+  background: transparent;
+  position: relative;
+  padding: 0;
+  color: #023047;
+}
+
+.tulip button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(45deg, #cb9f29 50%, transparent 50%);
+  z-index: -1;
+  background-size: 300%;
+  background-position: 100%;
+  transition: 1s, font-size 0.2s;
+  color: #ffffff;
+}
+
+.tulip button:hover:after {
+  background-position: 0;
+  font-size: 1.1em;
+}
+
+.tulip .row {
+  margin-left: 0;
+  margin-right: 0;
+  width: inherit;
+}
+
+.tulip img {
+  width: 700px;
+}
+
+.tulip .carousel {
+  padding-left: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .title h1 {
+    text-align: center;
+  }
+  .title p {
+    text-align: center;
+  }
+
+  .bougenville button {
+    width: 145px;
+    height: 30.5px;
+  }
+  .catellya button {
+    width: 145px;
+    height: 30.5px;
+  }
+  .tulip button {
+    width: 145px;
+    height: 30.5px;
+  }
+}
